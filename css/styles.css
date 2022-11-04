@@ -84,6 +84,10 @@ body {
   margin-left: 50px;
 }
 
+.auth-nav .item:not(:first-child) {
+  margin-left: 50px;
+}
+
 .logo-web {
   font-family: "Raleway";
   font-weight: 700;
@@ -113,7 +117,6 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--color-mailto-tel-details);
-   margin-left: 50px;
 }
 
 .header-list-link:hover,
@@ -296,7 +299,7 @@ img {
 .team-list {
   display: flex;
   padding-left: 0px;
-  justify-content: space-around;
+  justify-content: space-between;
   list-style: none;
   margin: 0px;
 }
@@ -309,8 +312,8 @@ img {
 
 .text-team {
   text-align: center;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-list .item {
@@ -371,6 +374,10 @@ footer {
   justify-content: center;
 
   margin-bottom: 50px;
+}
+
+.menu-btn .item:not(:first-child) {
+  margin-left: 8px;
 }
 
 .btn {

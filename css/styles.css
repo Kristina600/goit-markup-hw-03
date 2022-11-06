@@ -109,7 +109,7 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: var(--color-text);
- 
+
 }
 
 .contact-list {
@@ -131,7 +131,7 @@ body {
   color: var(--color-logo-header-hover);
 }
 
-.nav-list .current  {
+.nav-list .current {
   color: var(--color-logo-header-hover);
 }
 
@@ -210,7 +210,8 @@ body {
 }
 
 .list-title {
-  line-height: calc(16 / 14);
+  font-size: 14px;
+  line-height: 16px;
   text-transform: uppercase;
   color: var(--color-text);
 
@@ -370,7 +371,7 @@ footer {
 /* Portfolio */
 
 .menu-btn {
-   display: flex;
+  display: flex;
   justify-content: center;
 
   margin-bottom: 50px;
@@ -398,8 +399,8 @@ footer {
   padding: 6px 25px;
 }
 
-.menu-btn .item:not(:last-child) {
-  margin-right: 8px;
+.menu-btn .item:not(:first-child) {
+  margin-left: 8px;
 }
 
 .btn:hover,
@@ -432,14 +433,14 @@ footer {
 
 }
 
-.proect-list  > .item {
-  flex-basis: calc((100% - 60px) / 3) ;
-  
+.proect-list>.item {
+  flex-basis: calc((100% - 60px) / 3);
+
 }
 
 img {
-  display: block; 
-  width: 100%;  
+  display: block;
+  width: 100%;
   height: auto;
 }
 
@@ -466,5 +467,3 @@ img {
 
   text-align: left;
 }
-
-
